@@ -169,7 +169,7 @@
                     <suiteXmlFiles>
                         <!--该文件位于工程根目录时，直接填写名字，其它位置要加上路径-->
                         <!--suiteXmlFile>src/main/resources/testngXml/${xmlFileName}</suiteXmlFile-->
-                        <suiteXmlFile>${project.basedir}/target/classes/testngXml/${xmlFileName}</suiteXmlFile>
+                        <suiteXmlFile>${project.basedir}/target/classes/TestngXml/${xmlFileName}</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
