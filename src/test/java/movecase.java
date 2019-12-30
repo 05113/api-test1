@@ -16,7 +16,7 @@ import io.restassured.response.Response;
 
 public class movecase extends SetUpTearDown {
     @Story("Storytest")
-    @Description("描述发送短信接口")
+    @Description("描述")
     @Test(dataProvider = "dataprovider",dataProviderClass = DataProviders.class)
     public void runCase(String responseJson, String methodJson,String caseJson){
         Response response = RestAssuredJson.runCase(methodJson,caseJson);
